@@ -149,5 +149,5 @@ copyBtn.addEventListener("click", () => {
 
 // EXIT WELCOME MESSAGE
 exitBTN.addEventListener("click", () => {
-  absolute.style.display = "none";
+  absolute.classList.add("hide-animation");
 });
